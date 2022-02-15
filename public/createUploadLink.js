@@ -10,7 +10,7 @@ import {
   selectURI,
   serializeFetchParameter,
 } from "@apollo/client/link/http";
-import extractFiles from "extract-files/public/extractFiles.js";
+import extractFiles from "extract-files/extractFiles.js";
 import formDataAppendFile from "./formDataAppendFile.js";
 import isExtractableFile from "./isExtractableFile.js";
 
