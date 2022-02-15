@@ -11,8 +11,8 @@ import {
   serializeFetchParameter,
 } from "@apollo/client/link/http";
 import extractFiles from "extract-files/extractFiles.mjs";
+import isExtractableFile from "extract-files/isExtractableFile.mjs";
 import formDataAppendFile from "./formDataAppendFile.js";
-import isExtractableFile from "./isExtractableFile.js";
 
 /**
  * Creates a
