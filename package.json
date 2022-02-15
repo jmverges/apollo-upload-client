@@ -48,7 +48,7 @@
     "graphql": "14 - 16"
   },
   "dependencies": {
-    "extract-files": "^12.0.0"
+    "extract-files": "github:jaydenseric/extract-files#5232ae99c5b11ae545255dec86c02ff5ab079762"
   },
   "devDependencies": {
     "@apollo/client": "^3.5.5",
